@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div class="lng"></div>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+
+		$.get('https://apis.map.qq.com/ws/location/v1/ip?key=54CBZ-MA2W3-6WG3V-3DQ6E-ORCPE-3HFXU&output=jsonp', function(data) {
+      console.log(data)
+		}, 'jsonp');
+
+	})
+</script>
+</body>
+</html>
